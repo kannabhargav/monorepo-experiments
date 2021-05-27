@@ -20,14 +20,14 @@ pipeline {
 
     stages {
 
-    stage('init') {
-        steps {
-            script {
-                def scmVars = checkout scm
-                env.GIT_PREVIOUS_COMMIT = scmVars.GIT_PREVIOUS_SUCCESSFUL_COMMIT
-            }
-        }
-    }
+  //  stage('init') {
+    //    steps {
+      //      script {
+        //        def scmVars = checkout scm
+          //      env.GIT_PREVIOUS_COMMIT = scmVars.GIT_PREVIOUS_SUCCESSFUL_COMMIT
+            //}
+      //  }
+    //}
         stage('monorepo-library') {
             when {
                 expression {
