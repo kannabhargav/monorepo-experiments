@@ -15,3 +15,13 @@ libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.0
 
 // Adds additional packages into conf/routes
 // play.sbt.routes.RoutesKeys.routesImport += "org.smop.binders._"
+// Adds additional packages into Twirl
+//TwirlKeys.templateImports += "org.smop.controllers._"
+
+// Adds additional packages into conf/routes
+// play.sbt.routes.RoutesKeys.routesImport += "org.smop.binders._"
+// Adds additional packages into Twirl
+//TwirlKeys.templateImports += "org.smop.controllers._"
+
+// Adds additional packages into conf/routes
+// play.sbt.routes.RoutesKeys.routesImport += "org.smop.binders._"
