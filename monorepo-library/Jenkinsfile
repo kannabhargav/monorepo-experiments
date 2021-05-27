@@ -5,7 +5,7 @@ def projectDir = '/var/jenkins_home/monorepo-experiments-master/monorepo-library
 pipeline {
     agent {
         node {
-            label 'common-ws-agent'
+            label 'catalog-ui'
             customWorkspace 'monorepo-experiments-master'
         }
     }
